@@ -2,7 +2,7 @@
 <h3 align="center">⚡ Tech Explorer | 🧠 Code Crafter | 🛕 Bajrangbali Bhakt | 💻 IIT Delhi'27</h3>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=3000&pause=1000&center=true&vCenter=true&width=450&lines=Energy+Engineer+%7C+Web+Developer;DSA+Enthusiast+%7C+Full+Stack+in+Progress;Fueled+by+Focus+%26+Bajrangbali's+Power" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=3000&pause=1000&center=true&vCenter=true&width=700&lines=Energy+Engineer+%7C+Web+Developer;DSA+Enthusiast+%7C+Full+Stack+in+Progress;Fueled+by+Focus+%26+Bajrangbali's+Power" alt="Typing SVG" />
 </p>
 
 ---

@@ -19,7 +19,7 @@
 
 ### ⚒️ Languages & Tools
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=c,cpp,python,js,html,css,react,nodejs,git,figma,vscode,linux,mysql" alt="Tech Icons" />
+  <img src="https://skillicons.dev/icons?i=c,cpp,python,js,html,css,react,nodejs,git,github,figma,vscode,mysql" alt="Tech Icons" />
 </p>
 
 ---
@@ -27,8 +27,6 @@
 ### 📊 GitHub Stats
 <p align="center">
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=deepanshu210306&theme=radical&border_radius=10"/>
-  <br><br>
-  <img src="https://github-readme-stats.vercel.app/api?username=deepanshu210306&show_icons=true&theme=tokyonight"/>
   <br><br>
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=deepanshu210306&layout=compact&theme=tokyonight"/>
 </p>

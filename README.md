@@ -42,6 +42,3 @@
 
 ---
 
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=deepanshu210306&style=for-the-badge" alt="profile views"/>
-</p>

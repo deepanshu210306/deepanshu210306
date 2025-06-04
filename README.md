@@ -1,37 +1,38 @@
 <h1 align="center">Hi there 👋, I'm Deepanshu</h1>
-<h3 align="center">⚡ Tech Explorer | 🧠 Code Crafter | 🛕 Bajrangbali Bhakt | 💻 IIT Delhi'27</h3>
+<h3 align="center">IIT Delhi '27 • Energy Engineer • Full-Stack Developer in Progress</h3>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=3000&pause=1000&center=true&vCenter=true&width=700&lines=Energy+Engineer+%7C+Web+Developer;DSA+Enthusiast+%7C+Full+Stack+in+Progress" alt="Typing SVG" />
+  <em>Turning logic into solutions | Growing with consistency | Anchored by discipline and purpose</em>
 </p>
 
 ---
 
 ### ⚒️ Languages & Tools
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=c,cpp,python,js,html,css,react,nodejs,git,github,figma,vscode,mysql" alt="Tech Icons" />
+  <img src="https://skillicons.dev/icons?i=c,cpp,python,js,html,css,react,nodejs,git,github,figma,vscode,mysql,autocad,replit" alt="Tech Icons" />
 </p>
 
 ---
 
-### 📊 GitHub Stats
+### 📈 GitHub Activity
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=deepanshu210306&theme=radical&border_radius=10"/>
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=deepanshu210306&theme=radical&border_radius=10" />
   <br><br>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=deepanshu210306&layout=compact&theme=tokyonight"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=deepanshu210306&layout=compact&theme=tokyonight" />
 </p>
 
 ---
 
-### 🚀 Goals
-- 🌱 Mastering **React** & **Node.js**
-- 🔥 Building full-stack tools with real-world impact
-- 🧘‍♂️ Practicing discipline + focus = **stronger mind, stronger code**
-- 🛕 Spreading Bajrangbali’s power through consistency
+### 🚀 Current Focus
+- Mastering **React** and **Node.js** for dynamic full-stack development  
+- Practicing **DSA** consistently to sharpen core problem-solving  
+- Building meaningful, production-ready tools  
+- Living with clarity, calmness, and one-pointed focus  
+- *Inspired by the strength and steadiness of Bajrangbali* 🛕  
 
 ---
 
-### 🔗 Connect with Me
+### 🔗 Let's Connect
 <p align="center">
   <a href="mailto:deepanshu210306@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white"/></a>
   <a href="https://linkedin.com/in/deepanshu-63038328b/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/></a>

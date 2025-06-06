@@ -18,7 +18,8 @@
 <p align="center">
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=deepanshu210306&theme=radical&border_radius=10" />
   <br><br>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=deepanshu210306&layout=compact&theme=tokyonight" />
+ <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=deepanshu210306&layout=compact&theme=tokyonight&cache_seconds=1" />
+
 </p>
 
 ---

@@ -9,7 +9,7 @@
 
 ### ⚒️ Languages & Tools
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=c,cpp,python,js,html,css,react,nodejs,git,github,figma,vscode,mysql,autocad,replit" alt="Tech Icons" />
+  <img src="https://skillicons.dev/icons?i=c,cpp,python,js,html,css,react,nodejs,git,github,figma,vscode,mysql,autocad,replit,tailwindcss" alt="Tech Icons" />
 </p>
 
 ---

@@ -16,7 +16,7 @@
 
 ### 📈 GitHub Activity
 <p align="center">
-<img src="https://streak-stats.demolab.com?user=deepanshu210306&theme=tokyonight&border_radius=10&cache_seconds=1" />
+<img src="https://streak-stats.demolab.com/?user=deepanshu210306&theme=tokyonight&border_radius=10&cache_seconds=1" />
   <br><br>
 <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=deepanshu210306&layout=compact&theme=tokyonight&cache_seconds=1" />
 

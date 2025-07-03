@@ -16,10 +16,11 @@
 
 ### 📈 GitHub Activity
 <p align="center">
-<img src="https://streak-stats.demolab.com?user=deepanshu210306&theme=tokyonight&border_radius=10" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=deepanshu210306&theme=merko&radius=12&hide_border=false&area=true&custom_title=Deepanshu%27s%20Coding%20Quest" alt="GitHub Contribution Graph" />
   <br><br>
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=deepanshu210306&layout=compact&theme=tokyonight&cache_seconds=1" />
-
+  <img src="https://github-readme-stats.vercel.app/api?username=deepanshu210306&show_icons=true&theme=merko&border_radius=12&include_all_commits=true&count_private=false" alt="GitHub Stats" />
+  <br><br>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=deepanshu210306&layout=compact&theme=merko&cache_seconds=1" />
 </p>
 
 ---

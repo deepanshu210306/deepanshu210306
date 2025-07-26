@@ -2,7 +2,7 @@
 <h3 align="center">IIT Delhi '27 • Energy Engineer • Full-Stack Developer in Progress</h3>
 
 <p align="center">
-  <em>Turning logic into solutions | Growing with consistency | Anchored by discipline and purpose</em>
+  <em> I love leetcode </em>
 </p>
 
 ---
@@ -27,9 +27,7 @@
 
 ### 🚀 Current Focus
 - Mastering **React** and **Node.js** for dynamic full-stack development  
-- Practicing **DSA** consistently to sharpen core problem-solving  
-- Building meaningful, production-ready tools  
-- Living with clarity, calmness, and one-pointed focus  
+- Practicing **DSA**
 - *Inspired by the strength and steadiness of Bajrangbali* 🛕  
 
 ---

@@ -1,9 +1,6 @@
 <h1 align="center">Hi there 👋, I'm Deepanshu</h1>
-<h3 align="center">IIT Delhi '27 • Energy Engineer • Full-Stack Developer in Progress</h3>
+<h3 align="center">IIT Delhi '27 • Exploring Everything</h3>
 
-<p align="center">
-  <em> I love leetcode </em>
-</p>
 
 ---
 
@@ -25,10 +22,9 @@
 
 ---
 
-### 🚀 Current Focus
-- Mastering **React** and **Node.js** for dynamic full-stack development  
-- Practicing **DSA**
-- *Inspired by the strength and steadiness of Bajrangbali* 🛕  
+<p align="center">
+ Inspired by the strength and steadiness of Bajrangbali  
+</p>
 
 ---
 

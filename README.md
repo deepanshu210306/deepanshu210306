@@ -1,37 +1,26 @@
-<h1 align="center">Hi there 👋, I'm Deepanshu</h1>
-<h3 align="center">IIT Delhi '27 • Exploring Everything</h3>
-
-
----
-
-### ⚒️ Languages & Tools
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=c,cpp,python,js,html,css,react,nodejs,git,github,figma,vscode,mysql,autocad,replit,tailwindcss,unity,cs,matlab,nextjs,netlify,threejs,ts,vercel,vscode" alt="Tech Icons" />
+  <img src="./assets/header.svg" width="100%" alt="Deepanshu — IIT Delhi '27" />
 </p>
 
----
-
-### 📈 GitHub Activity
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=deepanshu210306&theme=merko&radius=12&hide_border=false&area=true&custom_title=Deepanshu%27s%20Coding%20Quest&cache_seconds=1" alt="GitHub Contribution Graph" />
-  <!-- <br><br>
-  <img src="https://github-readme-stats.vercel.app/api?username=deepanshu210306&show_icons=true&theme=merko&border_radius=12&include_all_commits=true&count_private=false&cache_seconds=1" alt="GitHub Stats" />
-  <br><br>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=deepanshu210306&layout=compact&theme=merko&cache_seconds=1" /> -->
+  <a href="mailto:deepanshu210306@gmail.com"><img src="https://img.shields.io/badge/EMAIL-0a0a0a?style=flat-square&logo=gmail&logoColor=d0021b" alt="Email" /></a>&nbsp;
+  <a href="https://linkedin.com/in/deepanshu-63038328b/"><img src="https://img.shields.io/badge/LINKEDIN-0a0a0a?style=flat-square&logo=linkedin&logoColor=d0021b" alt="LinkedIn" /></a>&nbsp;
+  <a href="https://x.com/Deep_hisariya"><img src="https://img.shields.io/badge/X-0a0a0a?style=flat-square&logo=x&logoColor=d0021b" alt="X" /></a>&nbsp;
+  <a href="https://www.instagram.com/deep_hisariya/"><img src="https://img.shields.io/badge/INSTAGRAM-0a0a0a?style=flat-square&logo=instagram&logoColor=d0021b" alt="Instagram" /></a>
 </p>
 
----
+<img src="./assets/divider.svg" width="100%" alt="" />
 
 <p align="center">
- Inspired by the strength and steadiness of Bajrangbali  
+  <img src="./assets/terminal.svg" width="100%" alt="whoami" />
 </p>
 
----
-
-### 🔗 Let's Connect
 <p align="center">
-  <a href="mailto:deepanshu210306@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white"/></a>
-  <a href="https://linkedin.com/in/deepanshu-63038328b/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
-  <a href="https://x.com/Deep_hisariya?t=bBEinKyOuIS-PZn4KtpdSQ&s=09"><img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white"/></a>
-  <a href="https://www.instagram.com/deep_hisariya?igsh=dWQ4Z2U0bzRpajZo"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white"/></a>
+  <img src="./assets/arsenal.svg" width="100%" alt="Tech stack: C++, C, Python, JavaScript, TypeScript, MATLAB, React, Next.js, Tailwind, Node.js, Express, MongoDB, PostgreSQL, MySQL, Git, Linux, Vercel, Arduino" />
+</p>
+
+<img src="./assets/divider.svg" width="100%" alt="" />
+
+<p align="center">
+  <img src="./assets/footer.svg" width="100%" alt="Inspired by the strength and steadiness of Bajrangbali." />
 </p>

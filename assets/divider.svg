@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="50" viewBox="0 0 1000 50">
+  <defs>
+    <filter id="dry" x="-5%" y="-100%" width="110%" height="300%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.0025 0.09" numOctaves="3" seed="11" result="t"/>
+      <feColorMatrix in="t" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  4 0 0 0 -1.2" result="streak"/>
+      <feComposite in="SourceGraphic" in2="streak" operator="in" result="s"/>
+      <feTurbulence type="fractalNoise" baseFrequency="0.03" numOctaves="3" seed="4" result="n"/>
+      <feDisplacementMap in="s" in2="n" scale="6" xChannelSelector="R" yChannelSelector="G"/>
+    </filter>
+    <filter id="rough"><feTurbulence type="fractalNoise" baseFrequency="0.05" numOctaves="2" result="n"/><feDisplacementMap in="SourceGraphic" in2="n" scale="5" xChannelSelector="R" yChannelSelector="G"/></filter>
+  </defs>
+  <path filter="url(#dry)" fill="#8a8075" opacity="0.8" d="M120 25 C300 20 420 21 470 23 C420 28 300 30 118 29 C114 27 115 26 120 25Z"/>
+  <path filter="url(#dry)" fill="#8a8075" opacity="0.8" d="M530 23 C580 21 700 20 880 25 C885 26 886 27 882 29 C700 30 580 28 530 27Z"/>
+  <circle cx="500" cy="25" r="7" fill="#b8121c" filter="url(#rough)"/>
+</svg>

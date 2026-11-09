@@ -1,0 +1,191 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="440" viewBox="0 0 1000 440">
+  <defs>
+    <radialGradient id="sky" cx="0.72" cy="0.42" r="0.75">
+      <stop offset="0" stop-color="#3a0306"/>
+      <stop offset="0.45" stop-color="#140102"/>
+      <stop offset="1" stop-color="#030000"/>
+    </radialGradient>
+    <radialGradient id="moon" cx="0.45" cy="0.4" r="0.6">
+      <stop offset="0" stop-color="#ff5a4a"/>
+      <stop offset="0.55" stop-color="#e0141e"/>
+      <stop offset="1" stop-color="#9c0a12"/>
+    </radialGradient>
+    <radialGradient id="halo" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0.55" stop-color="#ff1e1e" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#ff1e1e" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="vig" cx="0.5" cy="0.5" r="0.75">
+      <stop offset="0.6" stop-color="#000" stop-opacity="0"/>
+      <stop offset="1" stop-color="#000" stop-opacity="0.85"/>
+    </radialGradient>
+    <linearGradient id="ground" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0a0000"/>
+      <stop offset="1" stop-color="#000"/>
+    </linearGradient>
+    <filter id="blur20"><feGaussianBlur stdDeviation="20"/></filter>
+    <filter id="blur2"><feGaussianBlur stdDeviation="1.2"/></filter>
+    <filter id="tglow" x="-10%" y="-40%" width="120%" height="180%">
+      <feGaussianBlur stdDeviation="8" result="b"/>
+      <feColorMatrix in="b" values="0 0 0 0 1  0 0 0 0 0.1  0 0 0 0 0.1  0 0 0 0.55 0" result="r"/>
+      <feMerge><feMergeNode in="r"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="grain" x="0" y="0" width="100%" height="100%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.85" numOctaves="2" stitchTiles="stitch"/>
+      <feColorMatrix values="0 0 0 0 1  0 0 0 0 1  0 0 0 0 1  0 0 0 0.06 0"/>
+    </filter>
+    <clipPath id="frame"><rect width="1000" height="440" rx="8"/></clipPath>
+
+    <!-- one grass blade with plume -->
+    <g id="reed">
+      <path d="M0 0 C2 -40 6 -80 18 -120" fill="none" stroke="#000" stroke-width="3" stroke-linecap="round"/>
+      <path d="M18 -120 C22 -132 30 -142 40 -150 C30 -138 26 -128 20 -116 Z" fill="#000"/>
+    </g>
+  </defs>
+
+  <style>
+    .serif { font-family: 'Trajan Pro','Cinzel',Georgia,'Times New Roman',serif; }
+    .sans  { font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif; }
+    .jp    { font-family: 'Noto Serif JP','Noto Serif CJK JP','Hiragino Mincho ProN','Yu Mincho','MS Mincho',serif; }
+    .fade  { opacity: 0; animation: fade 1.6s ease forwards; }
+    .a1 { animation-delay: .3s } .a2 { animation-delay: .8s } .a3 { animation-delay: 1.3s } .a4 { animation-delay: 1.8s }
+    @keyframes fade { to { opacity: 1 } }
+    .moonrise { animation: rise 3s cubic-bezier(.2,.7,.2,1) forwards; }
+    @keyframes rise { from { transform: translateY(30px); opacity: 0 } to { transform: none; opacity: 1 } }
+    .breathe { animation: br 6s ease-in-out infinite; transform-origin: 720px 200px; }
+    @keyframes br { 0%,100% { opacity: .75; transform: scale(1) } 50% { opacity: 1; transform: scale(1.05) } }
+    .sway  { animation: sway 5s ease-in-out infinite; transform-box: fill-box; transform-origin: 0% 100%; }
+    .sway2 { animation: sway 6.5s ease-in-out -2s infinite; transform-box: fill-box; transform-origin: 0% 100%; }
+    @keyframes sway { 0%,100% { transform: rotate(-2deg) } 50% { transform: rotate(4deg) } }
+  </style>
+
+  <g clip-path="url(#frame)">
+    <rect width="1000" height="440" fill="url(#sky)"/>
+
+    <!-- moon -->
+    <g class="moonrise">
+      <circle cx="720" cy="200" r="230" fill="url(#halo)" class="breathe"/>
+      <circle cx="720" cy="200" r="148" fill="url(#moon)"/>
+      <!-- moon surface texture -->
+      <g fill="#7a0610" opacity="0.18">
+        <ellipse cx="680" cy="160" rx="38" ry="22"/>
+        <ellipse cx="770" cy="235" rx="30" ry="18"/>
+        <ellipse cx="745" cy="140" rx="14" ry="9"/>
+        <ellipse cx="660" cy="245" rx="20" ry="12"/>
+      </g>
+    </g>
+
+    <!-- far hills -->
+    <path d="M0 340 C120 318 220 330 330 322 C450 312 560 296 680 318 C800 338 900 316 1000 326 L1000 440 L0 440Z" fill="#1a0204" opacity="0.9"/>
+
+    <!-- back mist -->
+    <g filter="url(#blur20)" opacity="0.55">
+      <ellipse cx="300" cy="345" rx="320" ry="26" fill="#5a0a10">
+        <animate attributeName="cx" values="250;420;250" dur="22s" repeatCount="indefinite"/>
+      </ellipse>
+      <ellipse cx="820" cy="355" rx="300" ry="22" fill="#4a070c">
+        <animate attributeName="cx" values="860;700;860" dur="26s" repeatCount="indefinite"/>
+      </ellipse>
+    </g>
+
+    <!-- ground -->
+    <path d="M0 382 C160 370 300 378 460 372 C600 366 700 360 820 370 C900 376 960 372 1000 374 L1000 440 L0 440Z" fill="url(#ground)"/>
+
+    <!-- ===== RONIN SILHOUETTE (standing, back to viewer) ===== -->
+    <g fill="#000">
+      <!-- scarf tail in the wind -->
+      <path d="M707 158 C670 150 640 166 600 152 C580 146 566 150 552 158 C574 150 596 168 624 170 C654 172 676 166 704 170Z">
+        <animate attributeName="d" dur="3.2s" repeatCount="indefinite"
+          values="M707 158 C670 150 640 166 600 152 C580 146 566 150 552 158 C574 150 596 168 624 170 C654 172 676 166 704 170Z;
+                  M707 158 C672 160 644 150 604 160 C584 166 568 162 550 152 C572 164 600 176 628 174 C656 172 678 170 704 170Z;
+                  M707 158 C670 150 640 166 600 152 C580 146 566 150 552 158 C574 150 596 168 624 170 C654 172 676 166 704 170Z"/>
+      </path>
+      <!-- kasa (straw hat) -->
+      <path d="M646 140 C676 122 700 108 720 104 C740 108 764 122 794 140 C786 145 760 143 720 143 C680 143 654 145 646 140Z"/>
+      <!-- neck / head base -->
+      <path d="M710 142 L730 142 L733 160 L707 160Z"/>
+      <!-- haori torso -->
+      <path d="M708 158 C692 160 680 164 672 174 C668 190 670 214 676 238 C680 252 682 262 684 270 L756 270 C758 262 760 252 764 238 C770 214 772 190 768 174 C760 164 748 160 732 158Z"/>
+      <!-- square hanging kimono sleeves -->
+      <path d="M674 172 C660 178 651 190 649 210 L646 262 C654 267 666 267 675 262 L679 214Z"/>
+      <path d="M766 172 C780 178 789 190 791 210 L794 262 C786 267 774 267 765 262 L761 214Z"/>
+      <!-- obi -->
+      <path d="M682 262 L758 262 L757 276 L683 276Z"/>
+      <!-- hakama, flared with centre split -->
+      <path d="M684 274 C676 302 664 342 646 386 L716 386 L720 330 L724 386 L794 386 C776 342 764 302 756 274Z"/>
+      <!-- katana saya angled back from left hip -->
+      <path d="M686 268 L568 234 L565 240 L684 276Z"/>
+      <path d="M686 268 L702 272 L700 278 L684 276Z"/>
+    </g>
+    <!-- rim light on the blade's saya -->
+    <path d="M684 269 L570 236" stroke="#ff4a3a" stroke-width="0.8" opacity="0.6"/>
+
+    <!-- front mist -->
+    <g filter="url(#blur20)" opacity="0.45">
+      <ellipse cx="500" cy="396" rx="420" ry="20" fill="#6b0c12">
+        <animate attributeName="cx" values="420;600;420" dur="18s" repeatCount="indefinite"/>
+      </ellipse>
+    </g>
+
+    <!-- pampas grass, foreground -->
+    <g>
+      <g class="sway">
+        <use href="#reed" transform="translate(470 440) scale(1.1)"/>
+        <use href="#reed" transform="translate(500 440) scale(0.85) rotate(6)"/>
+        <use href="#reed" transform="translate(530 440) scale(1.25) rotate(-4)"/>
+        <use href="#reed" transform="translate(560 440) scale(0.95) rotate(10)"/>
+        <use href="#reed" transform="translate(440 440) scale(0.8) rotate(-12)"/>
+      </g>
+      <g class="sway2">
+        <use href="#reed" transform="translate(860 440) scale(1.3) rotate(-6)"/>
+        <use href="#reed" transform="translate(890 440) scale(1) rotate(4)"/>
+        <use href="#reed" transform="translate(915 440) scale(1.45) rotate(-10)"/>
+        <use href="#reed" transform="translate(950 440) scale(1.1) rotate(8)"/>
+        <use href="#reed" transform="translate(975 440) scale(1.35) rotate(-3)"/>
+        <use href="#reed" transform="translate(830 440) scale(0.9) rotate(-14)"/>
+      </g>
+      <g class="sway2">
+        <use href="#reed" transform="translate(20 440) scale(1.2) rotate(-8)"/>
+        <use href="#reed" transform="translate(48 440) scale(0.9) rotate(5)"/>
+        <use href="#reed" transform="translate(80 440) scale(1.15) rotate(-2)"/>
+        <use href="#reed" transform="translate(120 440) scale(0.75) rotate(9)"/>
+      </g>
+    </g>
+
+    <!-- embers -->
+    <g fill="#ff6a3d" filter="url(#blur2)">
+      <circle r="1.8" cx="600" cy="440"><animate attributeName="cy" values="440;120" dur="7s" repeatCount="indefinite"/><animate attributeName="cx" values="600;640;610" dur="7s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;1;0" dur="7s" repeatCount="indefinite"/></circle>
+      <circle r="1.4" cx="760" cy="440"><animate attributeName="cy" values="440;90" dur="9s" begin="1.5s" repeatCount="indefinite"/><animate attributeName="cx" values="760;730;770" dur="9s" begin="1.5s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;1;0" dur="9s" begin="1.5s" repeatCount="indefinite"/></circle>
+      <circle r="2.2" cx="840" cy="440"><animate attributeName="cy" values="440;160" dur="6s" begin="3s" repeatCount="indefinite"/><animate attributeName="cx" values="840;880;850" dur="6s" begin="3s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;1;0" dur="6s" begin="3s" repeatCount="indefinite"/></circle>
+      <circle r="1.2" cx="520" cy="440"><animate attributeName="cy" values="440;200" dur="8s" begin="2.2s" repeatCount="indefinite"/><animate attributeName="cx" values="520;500;540" dur="8s" begin="2.2s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;1;0" dur="8s" begin="2.2s" repeatCount="indefinite"/></circle>
+      <circle r="1.6" cx="680" cy="440"><animate attributeName="cy" values="440;140" dur="10s" begin="4.5s" repeatCount="indefinite"/><animate attributeName="cx" values="680;700;660" dur="10s" begin="4.5s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;1;0" dur="10s" begin="4.5s" repeatCount="indefinite"/></circle>
+      <circle r="1.3" cx="380" cy="440"><animate attributeName="cy" values="440;230" dur="9s" begin="5.5s" repeatCount="indefinite"/><animate attributeName="cx" values="380;410;390" dur="9s" begin="5.5s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;0.8;0" dur="9s" begin="5.5s" repeatCount="indefinite"/></circle>
+    </g>
+
+    <rect width="1000" height="440" fill="url(#vig)"/>
+    <rect width="1000" height="440" filter="url(#grain)"/>
+
+    <!-- ===== TITLE ===== -->
+    <text x="70" y="150" class="sans fade a1" font-size="12" font-weight="600" letter-spacing="7" fill="#ff2a2a">THE WAY OF THE SAMURAI</text>
+    <text x="66" y="222" class="serif fade a2" font-size="64" font-weight="700" letter-spacing="8" fill="#f4ece6" filter="url(#tglow)">DEEPANSHU</text>
+    <g class="fade a3">
+      <rect x="70" y="244" width="56" height="2" fill="#ff2a2a"/>
+      <rect x="132" y="244.5" width="160" height="1" fill="#ff2a2a" opacity="0.35"/>
+    </g>
+    <text x="70" y="276" class="sans fade a3" font-size="13" font-weight="500" letter-spacing="5" fill="#b9a9a4">IIT DELHI ’27  ·  SOFTWARE  ·  SYSTEMS  ·  ENERGY</text>
+
+    <!-- vertical kanji banner -->
+    <g class="fade a4">
+      <rect x="920" y="52" width="34" height="112" fill="#c3121b"/>
+      <text x="937" y="88" text-anchor="middle" class="jp" font-size="24" font-weight="700" fill="#0a0000">侍</text>
+      <text x="937" y="118" text-anchor="middle" class="jp" font-size="24" font-weight="700" fill="#0a0000">の</text>
+      <text x="937" y="148" text-anchor="middle" class="jp" font-size="24" font-weight="700" fill="#0a0000">道</text>
+    </g>
+
+    <!-- letterbox bars -->
+    <rect width="1000" height="26" fill="#000"/>
+    <rect y="414" width="1000" height="26" fill="#000"/>
+    <text x="24" y="17" class="sans" font-size="9" letter-spacing="4" fill="#5a3a38">● REC</text>
+    <text x="976" y="17" text-anchor="end" class="sans" font-size="9" letter-spacing="4" fill="#5a3a38">ACT I — THE RONIN</text>
+    <text x="500" y="431" text-anchor="middle" class="sans" font-size="9" letter-spacing="6" fill="#5a3a38">IIT DELHI · MMXXVII</text>
+  </g>
+</svg>

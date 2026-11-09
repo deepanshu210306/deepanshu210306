@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="110" viewBox="0 0 1000 110">
+  <defs><radialGradient id="cg" cx="0.5" cy="1" r="0.9"><stop offset="0" stop-color="#3a0306"/><stop offset="1" stop-color="#060000"/></radialGradient></defs>
+  <rect width="1000" height="110" rx="8" fill="url(#cg)"/>
+  <text x="500" y="44" text-anchor="middle" font-family="'Noto Serif JP','Noto Serif CJK JP','Hiragino Mincho ProN','Yu Mincho',serif" font-size="18" font-weight="700" fill="#ff2a2a">終</text>
+  <text x="500" y="78" text-anchor="middle" font-family="Georgia,'Times New Roman',serif" font-style="italic" font-size="15" fill="#c9b8b3">Inspired by the strength and steadiness of Bajrangbali.</text>
+</svg>
